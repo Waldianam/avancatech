@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aula 4/aula 4.iml" filepath="$PROJECT_DIR$/aula 4/aula 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula 5 estruturas de controles/aula 5 estruturas de controles.iml" filepath="$PROJECT_DIR$/aula 5 estruturas de controles/aula 5 estruturas de controles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/aula3/aula3.iml" filepath="$PROJECT_DIR$/java/aula3/aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/ex.2/ex.2.iml" filepath="$PROJECT_DIR$/java/ex.2/ex.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-waldiana/java-waldiana.iml" filepath="$PROJECT_DIR$/java-waldiana/java-waldiana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/waldiana.iml" filepath="$PROJECT_DIR$/.idea/waldiana.iml" />
+    </modules>
+  </component>
+</project>
