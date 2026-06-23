@@ -1,0 +1,42 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+th{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+
+
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color:#26798cfd;
+}
+
+p{
+    color: blue;
+}
+ .texto-vermelho{
+    color:red;
+ }
+
+ #cor-fundo{
+    background-color:#1b9b85fd
+ }
+ .titulo{
+    font-size: 30px;
+    text-align: center;
+ }
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+} 
