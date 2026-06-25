@@ -6,10 +6,10 @@ function Produtos(){
     return(
     <>
         <div className="d-flex justify-content-around gap-3 mt-3">
-            <Card imagem={"./img/fotogato.png"} preco={100} nome={"gatinho"} />
-            <Card imagem={"./img/banner.png"} preco={105000} nome={"loja"} />
-            <Card imagem={"./img/servicos.png"} preco={89} nome={"servicos"} />
-            <Card imagem={"./img/fotoanimais.png"} preco={80009} nome={"animais"} />
+            <Card imagem={"./img/racao.jpeg"} preco={50} nome={"Ração"} />
+            <Card imagem={"./img/shampoo.jpg"} preco={40} nome={"Shampoo"} />
+            <Card imagem={"./img/brinquedo.jpeg"} preco={30} nome={"Brinquedos"} />
+            <Card imagem={"./img/cama.jpg"} preco={100} nome={"Cama"} />
 
         </div>
     </>
