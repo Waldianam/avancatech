@@ -11,3 +11,7 @@
 .text-marrom{
     color:brown;
 }
+
+img{
+    object-fit: contain;
+}
