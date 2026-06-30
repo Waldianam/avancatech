@@ -20,7 +20,30 @@ function Home() {
           <ul className="navbar-nav">
 
             <li className="nav-item">
-              <a className="nav-link" href="/">Animais</a>
+              <a className="nav-link" href="/Servicos">Hotelzinho</a>
+            </li>
+
+             <li className="nav-item">
+              <a className="nav-link" href="/Servicos">Banho e Tosa</a>
+            </li>
+
+
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Cachorro
+              </a>
+
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/produtos">Rações</a></li>
+                <li><a className="dropdown-item" href="/produtos">Petiscos e ossos</a></li>
+                <li><a className="dropdown-item" href="/produtos">Tapetes, fraldas e banheiros</a></li>
+                <li><a className="dropdown-item" href="/produtos">Brinquedos</a></li>
+              </ul>
             </li>
 
             <li className="nav-item dropdown">
@@ -30,23 +53,23 @@ function Home() {
                 role="button"
                 data-bs-toggle="dropdown"
               >
-                Serviços
+                Outros Pets
               </a>
 
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/banho">Cachorro</a></li>
-                <li><a className="dropdown-item" href="/tosa">Gato</a></li>
-                <li><a className="dropdown-item" href="/hotelzinho">Pássaro</a></li>
-                <li><a className="dropdown-item" href="/veterinario">Peixe</a></li>
+                <li><a className="dropdown-item" href="/produtos">Coelhos</a></li>
+                <li><a className="dropdown-item" href="/produtos">Hamsters</a></li>
+                <li><a className="dropdown-item" href="/produtos">Porquinhos da índia</a></li>
+                <li><a className="dropdown-item" href="/produtos">Tartarugas</a></li>
               </ul>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/adocao">Adoção</a>
+              <a className="nav-link" href="/produtos">Promoções</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/contato">Contato</a>
+              <a className="nav-link" href="/agendamento">Contato</a>
             </li>
 
           </ul>
@@ -117,10 +140,29 @@ function Home() {
 
       </div>
     </div>
-  
+    <div className="row mb-5">
+        <div className="col-12"> {/* col-12 = 100% da linha */}
+          <div 
+            className="card shadow-sm border-0 rounded-4 p-4 text-center"
+            style={{ backgroundColor: "#fff8f0" }} /* cor de fundo suave laranja claro */
+          >
+            <img
+              src="/img/fotocachorro.png"
+              alt="Brinquedos"
+              className="img-fluid rounded-3 w-100"
+              style={{ maxHeight: "420px", objectFit: "cover" }}
+            />
+            <div className="card-body mt-4">
+              <h3 className="fw-bold">Brinquedos</h3>
+              <p className="text-muted fs-5 mb-4">Sua melhor companhia para brincar juntos</p>
+              <Link to="/produtos" className="btn btn-dark px-5 py-2">Aproveite</Link>
+            </div>
+          </div>
+        </div>
+      </div> {/* FIM DO BANNER */}
 
-
-    </>
+    
+      </>
   );
 }
 
