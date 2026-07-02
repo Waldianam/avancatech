@@ -10,6 +10,8 @@ import Agendamento from "./Pages/Agendamento";
 import Servicos from "./Pages/Servicos";
 import Sobre from "./Pages/Sobre";
 import Footer from "./Components/Footer";
+import AdocaoCard from "./Components/AdocaoCard";
+import PerguntasFrequentes from "./Components/PerguntasFrequentes";
 
 
 function App() {
@@ -40,8 +42,12 @@ function App() {
         element= {<Sobre/>}
         />
       </Routes>
+      <AdocaoCard/>
+      <PerguntasFrequentes/>
+      
 
       <Footer />
+      
     </BrowserRouter>
     </div>
 
